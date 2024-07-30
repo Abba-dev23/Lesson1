@@ -1,0 +1,347 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.brain {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.brain:hover {
+    background-color: rgb(30, 255, 0);
+    transform: scale(1.2);
+
+}
+
+.ear1 {
+    border: 3px solid black;
+    height: 250px;
+    width: 160px;
+    border-radius: 48%;
+    position: absolute;
+    bottom: 380px;
+    right: 250px;
+    transform: rotate(340deg);
+    z-index: -1;
+    background-color: rgb(255, 187, 0);
+    transition: 0.5s;
+
+}
+
+.ear1:hover {
+    height: 250px;
+    width: 160px;
+    border-radius: 48%;
+    bottom: 380px;
+    right: 250px;
+    transform: scale(1.2);
+    background-color: darkcyan;
+
+}
+
+.ear2 {
+    border: 3px solid black;
+    height: 250px;
+    width: 160px;
+    border-radius: 48%;
+    position: absolute;
+    bottom: 380px;
+    left: 250px;
+    transform: rotate(15deg);
+    z-index: -1;
+    background-color: rgb(255, 187, 0);
+
+}
+
+.ear2:hover {
+    height: 250px;
+    width: 160px;
+    border-radius: 48%;
+    bottom: 380px;
+    left: 250px;
+    transform: scale(1.2);
+    background-color: darkcyan;
+
+}
+
+.QulaqPerdesi1 {
+    border: 3px solid black;
+    height: 200px;
+    width: 95px;
+    border-radius: 48%;
+    position: absolute;
+    bottom: 150px;
+    right: 23px;
+    top: 40px;
+    transform: rotate(358deg);
+    z-index: 0;
+    background-color: rgb(255, 192, 192);
+}
+
+.QulaqPerdesi2 {
+    border: 3px solid black;
+    height: 200px;
+    width: 95px;
+    border-radius: 48%;
+    position: absolute;
+    bottom: 150px;
+    left: 23px;
+    top: 40px;
+    transform: rotate(5deg);
+    z-index: 0;
+    background-color: rgb(255, 192, 192);
+}
+
+.head {
+    border: 2px solid black;
+    height: 495px;
+    width: 380px;
+    border-radius: 47%;
+    margin-top: 50px;
+    background-color: rgb(255, 187, 0);
+    position: relative;
+}
+
+.glasses1 {
+    border: 2px solid black;
+    height: 185px;
+    width: 175px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30%;
+    right: 55%;
+    background-color: rgb(165, 87, 42);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.glasses2 {
+    border: 2px solid black;
+    height: 185px;
+    width: 175px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30%;
+    left: 55%;
+    background-color: rgb(165, 87, 42);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+
+
+
+}
+
+.eye1 {
+    border: 2px solid black;
+    height: 155px;
+    width: 145px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: white;
+
+
+}
+
+.eye2 {
+    border: 2px solid black;
+    height: 155px;
+    width: 145px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: white;
+}
+
+.pupil1 {
+    border: 2px solid black;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    right: 10px;
+    bottom: 60px;
+    transition: 0.5s;
+}
+
+.pupil1:hover {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    right: 50px;
+    bottom: 80px;
+    transform: scale(1.2);
+}
+
+.pupil2 {
+    border: 2px solid black;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    right: 10px;
+    bottom: 60px;
+}
+
+.square {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 15%;
+    height: 22px;
+    width: 43px;
+    position: absolute;
+    top: 230px;
+    right: 167px;
+    background-color: rgb(165, 87, 42);
+
+}
+
+.brow1 {
+    border: 2px solid black;
+    height: 5px;
+    width: 42px;
+    background-color: black;
+    border-radius: 40%;
+    position: absolute;
+    top: 130px;
+    left: 80px;
+    transform: rotate(350deg);
+    transition: 0.5s;
+}
+
+.brow1:hover {
+    height: 5px;
+    width: 42px;
+    background-color: black;
+    border-radius: 40%;
+    top: 130px;
+    left: 80px;
+    transform: scale(1.2);
+}
+
+.brow2 {
+    border: 2px solid black;
+    height: 5px;
+    width: 42px;
+    background-color: black;
+    border-radius: 40%;
+    position: absolute;
+    top: 130px;
+    right: 80px;
+    transform: rotate(10deg);
+    transition: 0.5s;
+}
+
+.brow2:hover {
+    height: 5px;
+    width: 42px;
+    background-color: black;
+    border-radius: 40%;
+    top: 130px;
+    right: 80px;
+    transform: scale(1.2);
+}
+
+.nose1 {
+    border: 2px solid black;
+    height: 6px;
+    width: 15px;
+    background-color: black;
+    border-radius: 38%;
+    position: absolute;
+    top: 228px;
+    right: 215px;
+    transform: rotate(25deg);
+    z-index: 2;
+}
+
+.nose2 {
+    border: 2px solid black;
+    height: 6px;
+    width: 15px;
+    background-color: black;
+    border-radius: 38%;
+    position: absolute;
+    top: 228px;
+    right: 175px;
+    transform: rotate(338deg);
+    z-index: 2;
+}
+
+.mouth1 {
+    border: 2px solid black;
+    height: 63px;
+    width: 30px;
+    background-color: rgb(255, 192, 192);
+    border-radius: 50%;
+    position: absolute;
+    left: 132px;
+    top: 395px;
+    transform: rotate(300deg);
+    z-index: 2;
+    transition: 0.5s;
+}
+
+.mouth1:hover {
+    height: 63px;
+    width: 30px;
+    background-color: rgb(255, 192, 192);
+    border-radius: 50%;
+    left: 132px;
+    top: 395px;
+    transform: scale(1);
+}
+
+.mouth2 {
+    border: 2px solid black;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    position: absolute;
+    left: 110px;
+    top: 330px;
+    background-color: red;
+    transition: 0.5s;
+}
+
+.mouth2:hover {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    left: 130px;
+    top: 350px;
+    transform: scale(1);
+    background-color: rgb(0, 119, 255);
+}
+
+.mouth3 {
+
+    height: 110px;
+    width: 140px;
+    border-radius: 50%;
+    position: absolute;
+    left: 115px;
+    top: 310px;
+    transform: rotate(200deg);
+    background-color: rgb(255, 187, 0);
+    transition: 1.2s;
+}
+
+.mouth3:hover {
+    height: 110px;
+    width: 140px;
+    border-radius: 50%;
+    left: 115px;
+    top: 310px;
+    transform: scale(1);
+}v
